@@ -1,0 +1,53 @@
+{
+  "name": "react-vite-tailwind",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node server.cjs",
+    "serve": "node server.cjs"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.60.0",
+    "@tanstack/react-query": "^5.100.14",
+    "@trpc/server": "^11.17.0",
+    "bcryptjs": "^3.0.3",
+    "clsx": "^2.1.1",
+    "compression": "^1.8.1",
+    "cors": "^2.8.6",
+    "date-fns": "^4.4.0",
+    "dotenv": "^17.4.2",
+    "drizzle-orm": "^0.45.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.5.2",
+    "framer-motion": "^12.40.0",
+    "google-auth-library": "^10.7.0",
+    "helmet": "^8.2.0",
+    "jsonwebtoken": "^9.0.3",
+    "lucide-react": "^1.17.0",
+    "mysql2": "^3.22.4",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "react-router-dom": "^7.16.0",
+    "recharts": "^3.8.1",
+    "tailwind-merge": "^3.6.0",
+    "vitest": "^4.1.7",
+    "wouter": "^3.10.0",
+    "zod": "^4.4.3",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.1.17",
+    "@types/node": "22.19.17",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "5.1.1",
+    "tailwindcss": "4.1.17",
+    "typescript": "5.9.3",
+    "vite": "7.3.2",
+    "vite-plugin-singlefile": "2.3.0"
+  }
+}
